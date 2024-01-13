@@ -1,6 +1,6 @@
 ---
-title: Merhaba Dünya
-description: İlk post.
+title: Hakkımızda
+description: Erdem Teknik Mühendislik Ankara Sincan'da bulunan Ankara geneline hizmet veren servis hizmetleri ile ön plana çıkıyor.
 date: "2024-1-1"
 categories:
   - erdem
