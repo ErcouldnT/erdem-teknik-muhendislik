@@ -6,6 +6,7 @@ categories:
   - erdem
   - teknik
   - mühendislik
-published: true
+published: true
 ---
+
 Erdem Teknik Mühendislik Ankara Sincan'da bulunan Ankara geneline hizmet veren servis hizmetleri ile ön plana çıkıyor.
