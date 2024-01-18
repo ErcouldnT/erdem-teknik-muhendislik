@@ -1,12 +1,12 @@
 {
-	"name": "landing-page",
-	"private": true,
+	"name": "landing",
 	"version": "1.0.0",
-	"type": "module",
+	"main": "index.ts",
+	"author": "Ercode",
 	"scripts": {
-		"start": "vite serve src"
+		"start": "serve src"
 	},
 	"dependencies": {
-		"vite": "^5.0.8"
+		"serve": "^14.2.1"
 	}
 }
