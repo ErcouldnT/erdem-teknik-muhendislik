@@ -1,0 +1,12 @@
+{
+	"name": "landing-page",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite serve src"
+	},
+	"dependencies": {
+		"vite": "^5.0.8"
+	}
+}
