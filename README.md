@@ -1,1 +1,0 @@
-# Erdem Teknik Mühendislik
