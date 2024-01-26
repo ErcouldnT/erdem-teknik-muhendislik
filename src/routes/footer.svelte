@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-	<p>{config.developer} &copy {new Date().getFullYear()}</p>
+	<a href="https://erkut.dev">{config.developer} &copy {new Date().getFullYear()}</a>
 </footer>
 
 <style>
