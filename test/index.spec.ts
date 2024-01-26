@@ -11,6 +11,7 @@ test("copyright link", async ({ page }) => {
 	await page.goto("http://localhost:5173");
 
 	// Click the get copyright link.
-	await page.getByRole("link", { name: "Ercode Labs" }).click();
-	await expect(page).toHaveTitle(/erkut/gi);
+	await page.getByRole("link", { name: "Erkut" }).click();
+	await page.waitForURL("**/erkut*/**");
+	expect(page.url()).toMatch(/erkut/gi);
 });
