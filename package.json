@@ -7,8 +7,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "eslint src/**/*",
-		"lint:fix": "eslint src/**/* --fix",
+		"lint": "eslint src",
+		"lint:fix": "eslint src --fix",
 		"format": "prettier . --check",
 		"format:write": "prettier . --write"
 	},
