@@ -18,7 +18,7 @@ jobs:
       - name: Run Linting
         run: yarn lint
       - name: Run Prettier
-        run: yarn format
+        run: yarn format:write
       - name: Install Playwright Browsers
         run: yarn playwright install --with-deps
       - name: Run Playwright tests
