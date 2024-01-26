@@ -10,8 +10,8 @@
 		"test": "playwright test",
 		"lint": "eslint src",
 		"lint:fix": "eslint src --fix",
-		"format": "prettier . --check",
-		"format:write": "prettier . --write"
+		"format": "prettier src --check",
+		"format:write": "prettier src --write"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.41.1",
