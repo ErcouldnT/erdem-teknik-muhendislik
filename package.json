@@ -1,15 +1,22 @@
 {
-  "name": "landing",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
-  }
+	"name": "erdem-teknik-landing",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint src/**/*",
+		"lint:fix": "eslint src/**/* --fix",
+		"format": "prettier . --check",
+		"format:write": "prettier . --write"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "3.2.4",
+		"typescript": "^5.2.2",
+		"vite": "^5.0.8"
+	}
 }
